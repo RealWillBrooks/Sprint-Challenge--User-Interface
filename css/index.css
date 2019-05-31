@@ -290,8 +290,14 @@ footer nav a {
 /* ABOUT PAGE */
 
 .aboutsection{
-    margin-bottom: 30px;
+    padding-left: 10px;
+    margin-bottom: 0px;
     border-bottom: 1px dashed black;
+}
+
+.aboutsection h2{
+    padding-top: 10px;
+
 }
 .aboutsection p{
     padding-bottom: 20px;
@@ -304,23 +310,44 @@ footer nav a {
     height: 800px;
     margin-bottom: 75px;
     padding-top: 30px; 
-    padding-left:15px;
+    padding-left: 0px;
 }
 
 .contentbox{
-    border: 3px solid black;
-  background-color: lightgray;
-  padding: 30px;
+  padding-top: 20px;
   width: 400px;
-  height: 300px;
-  margin: 15px;
-  font-size: 17px;
+  height: 425px;
+  margin: 5px;
+  padding-bottom: 430px;
+  border-bottom: 1px dashed black;
+}
+
+.contentbox h2{
+    padding-top: 10px;
 }
 
 .contentbox p {
     padding-bottom: 20px;
   }
   
-  button {
-    padding-top: 10px;
+ button {
+     display: flex;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 4px 2px;
+    border-radius: 10px;
+  }
+
+  .bottomsection{
+    margin-top: 170px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+  }
+
+
+  .bottomsection h2{
+      padding-top: 40px;
   }
